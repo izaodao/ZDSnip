@@ -1,0 +1,6 @@
+framework module ZDSnip {
+  umbrella header "ZDSnip-umbrella.h"
+
+  export *
+  module * { export * }
+}

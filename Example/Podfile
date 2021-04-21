@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ZDSnip_Tests' do
+  pod 'ZDSnip', :path => '../'
+  
+  
+end

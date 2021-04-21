@@ -1,0 +1,16 @@
+PODS:
+  - ZDSnip (0.1.0)
+
+DEPENDENCIES:
+  - ZDSnip (from `../`)
+
+EXTERNAL SOURCES:
+  ZDSnip:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZDSnip: d6fc7a615b550d94228771d8b618bc5e89fe9600
+
+PODFILE CHECKSUM: 30b1fbb3d58c8079eeb551045785e4be134e0b48
+
+COCOAPODS: 1.10.0

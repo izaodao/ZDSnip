@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B70D75F04657E20526DFE313B6A1FD /* Pods-ZDSnip_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC772666AB145E7D3658EB5A8A1C93B /* Pods-ZDSnip_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F72FFF48990A0B9236FDECDCAF3DCFF /* ImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0988CD9A3458206CF9E7438C1A0D00B0 /* ImageButton.m */; };
+		1DEC88DE161A2AE761E667C6C460581A /* SimpleLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2BF68BC2336C2D59140E9C9DFE66BB9 /* SimpleLabelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23ADEF001F9FF297C0DA3257183D0245 /* DrawPathView.h in Headers */ = {isa = PBXBuildFile; fileRef = 746F5AADA18078DFBB8AE7933F8C0B8D /* DrawPathView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2596D1108579881E9782326B87E773BA /* SnipUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DF14B70365A73A09D4AF5012C8DD2D85 /* SnipUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29FAA4ABECBA0236DEF1A31F0F1F6148 /* DrawPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = F17C3CC609CA5BF7217DF9BAC0C4B22F /* DrawPathView.m */; };
+		2E69F167BB740E591A1B1EF96F0F50AC /* SnipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BA05DD6C15A823A0D373F3C961BB63 /* SnipView.m */; };
+		372F9D768481F4936A80E0E8A8954E4F /* SnipUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 207BC49B82B89DA552233684EF77D53A /* SnipUtil.m */; };
+		42A2ADC0DC6ECECCD7BE4E3B11806ABC /* Pods-ZDSnip_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97689BA2685073FC0DBA83A13FFB767D /* Pods-ZDSnip_Tests-dummy.m */; };
+		5B745B7E20DF4C93CA13FB769EC40261 /* DrawPathInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1359FE2F511205CA375CD7984F54B872 /* DrawPathInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D4563364934AF6F3E94E04722CA5445 /* SimpleLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A3D9C65998565E35FCD869641C44E1 /* SimpleLabelView.m */; };
+		64702245EC07621B462010C52F7AE569 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		7357093C7B700CC4ADC51E93EB4BD37E /* ZDSnip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70987B3E5EEDA2959AA6C71114F9D2B7 /* ZDSnip-dummy.m */; };
+		771EB67555F86337A25ACE80AF1A535D /* ToolContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 293B7C1B7DCD1AC26C7781982BF004B9 /* ToolContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		787ED33183C90509AA7ED8E497CDECA0 /* SnipWindowController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 40E5FE1A3E2C7431D01448AAEB893808 /* SnipWindowController.xib */; };
+		7E0E15031EE794D5C56E6AA3F72A88B4 /* ToolContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBAED6D87671BAE24C28226708E5426 /* ToolContainer.m */; };
+		7E3BA85356FEB2A17FBCCF08F4F1A741 /* AutoHeightTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4658DE2063E22A515AC67D2DF3647E /* AutoHeightTextView.m */; };
+		8DBB3A069138005DB7D62468F6940A7A /* SnipWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6504E88835529268726CDD63A195895B /* SnipWindow.m */; };
+		8EA07330294C46226A00F893D9AF784A /* SnipWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D97A379B501B9FB012E44919E27A18 /* SnipWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D2267A79D265FC5C4B8BEA179B5B618 /* SnipView.h in Headers */ = {isa = PBXBuildFile; fileRef = E87052E6471FB753D76A4CDDD4DCFCEF /* SnipView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DC314356A50B125E734E270D5688498 /* NSColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D3EC8C5FB2A4A8B85850DB42344260 /* NSColor+Helper.m */; };
+		A83F11E286C18078C138C841FD22A9D1 /* DrawPathInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5249E59D7F4E178CF7D9823181C06D76 /* DrawPathInfo.m */; };
+		B2C5F38C75924A18AC1475156B75C105 /* NSColor+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2DED78A52473DC925139BE494F5D5B /* NSColor+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDB12BB172BBB10D749C6E45D6E427E4 /* ZDSnip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 808DFB25F2CD5B4BC5CC6D3DAAC4CBBD /* ZDSnip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C28AF3572967EE020EA79B9793153F50 /* SnipManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E410B7165D5BD2B961C8C2E0C387AAC /* SnipManager.m */; };
+		C3C0071D4919B916687E43F4F02B8DD4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		C83623E918A2F462C94F7B348BA9BF07 /* ImageButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C576AA7F9EBDA0075ADD0578BF0737 /* ImageButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBA1B07DD66DD741AD666B2A242745BE /* SnipManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A3DC10E79617ECEAEF895E4E22CF91D4 /* SnipManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE56EB016579A336FC478FC37B7DA3A2 /* SnipWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = AC75D351426AEF74418DE5F8CF5E5CFC /* SnipWindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D645BA4EE63BEC99E807D73D0F143AED /* AutoHeightTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = D3617687620F0D5B77238CF453AA3B95 /* AutoHeightTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E936C5ABE9C1325CB16610B5370D9180 /* MouseEventProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 96ADF1F89B3CDE942735F9C2384A7947 /* MouseEventProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE3385F10CA7A7CEFCD6625D4FB58B12 /* SnipWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E02D799417460DCF35D8302495189B /* SnipWindowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DEB79291F7997E84D5E6637E800579C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA3D16E679640933459B5AE04887828A;
+			remoteInfo = ZDSnip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BA05DD6C15A823A0D373F3C961BB63 /* SnipView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SnipView.m; path = ZDSnip/Classes/SnipView.m; sourceTree = "<group>"; };
+		02994C8A96A62892859C1AD1EE8E7D84 /* ZDSnip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZDSnip.modulemap; sourceTree = "<group>"; };
+		0988CD9A3458206CF9E7438C1A0D00B0 /* ImageButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ImageButton.m; path = ZDSnip/Classes/ImageButton.m; sourceTree = "<group>"; };
+		0E410B7165D5BD2B961C8C2E0C387AAC /* SnipManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SnipManager.m; path = ZDSnip/Classes/SnipManager.m; sourceTree = "<group>"; };
+		1359FE2F511205CA375CD7984F54B872 /* DrawPathInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DrawPathInfo.h; path = ZDSnip/Classes/DrawPathInfo.h; sourceTree = "<group>"; };
+		207BC49B82B89DA552233684EF77D53A /* SnipUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SnipUtil.m; path = ZDSnip/Classes/SnipUtil.m; sourceTree = "<group>"; };
+		23C576AA7F9EBDA0075ADD0578BF0737 /* ImageButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageButton.h; path = ZDSnip/Classes/ImageButton.h; sourceTree = "<group>"; };
+		24A5B453935BF8DA7776E15FC5242B80 /* ZDSnip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZDSnip.release.xcconfig; sourceTree = "<group>"; };
+		293B7C1B7DCD1AC26C7781982BF004B9 /* ToolContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ToolContainer.h; path = ZDSnip/Classes/ToolContainer.h; sourceTree = "<group>"; };
+		30D3EC8C5FB2A4A8B85850DB42344260 /* NSColor+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSColor+Helper.m"; path = "ZDSnip/Classes/NSColor+Helper.m"; sourceTree = "<group>"; };
+		31FD5A003C116495F52E4A24797A70C4 /* Pods-ZDSnip_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZDSnip_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F8C44C7AAF99BCCC84F19A33369CDA5 /* Pods-ZDSnip_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDSnip_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		40E5FE1A3E2C7431D01448AAEB893808 /* SnipWindowController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SnipWindowController.xib; path = ZDSnip/Classes/SnipWindowController.xib; sourceTree = "<group>"; };
+		41A3D9C65998565E35FCD869641C44E1 /* SimpleLabelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimpleLabelView.m; path = ZDSnip/Classes/SimpleLabelView.m; sourceTree = "<group>"; };
+		41E02D799417460DCF35D8302495189B /* SnipWindowController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SnipWindowController.m; path = ZDSnip/Classes/SnipWindowController.m; sourceTree = "<group>"; };
+		4F2DED78A52473DC925139BE494F5D5B /* NSColor+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSColor+Helper.h"; path = "ZDSnip/Classes/NSColor+Helper.h"; sourceTree = "<group>"; };
+		5249E59D7F4E178CF7D9823181C06D76 /* DrawPathInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DrawPathInfo.m; path = ZDSnip/Classes/DrawPathInfo.m; sourceTree = "<group>"; };
+		6504E88835529268726CDD63A195895B /* SnipWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SnipWindow.m; path = ZDSnip/Classes/SnipWindow.m; sourceTree = "<group>"; };
+		6AFE79D50814D5BD570D4FC2A06B240A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		70987B3E5EEDA2959AA6C71114F9D2B7 /* ZDSnip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZDSnip-dummy.m"; sourceTree = "<group>"; };
+		732044C387D3E757AAF85BFFDE669495 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		746F5AADA18078DFBB8AE7933F8C0B8D /* DrawPathView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DrawPathView.h; path = ZDSnip/Classes/DrawPathView.h; sourceTree = "<group>"; };
+		7681EC525B6E22DCC2C90BBFE4EBB2BE /* ZDSnip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZDSnip.framework; path = ZDSnip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4658DE2063E22A515AC67D2DF3647E /* AutoHeightTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AutoHeightTextView.m; path = ZDSnip/Classes/AutoHeightTextView.m; sourceTree = "<group>"; };
+		7DBAED6D87671BAE24C28226708E5426 /* ToolContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ToolContainer.m; path = ZDSnip/Classes/ToolContainer.m; sourceTree = "<group>"; };
+		808DFB25F2CD5B4BC5CC6D3DAAC4CBBD /* ZDSnip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDSnip-umbrella.h"; sourceTree = "<group>"; };
+		8D6B5CD8A684273BBE0B19757E5B2E77 /* ZDSnip.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZDSnip.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96ADF1F89B3CDE942735F9C2384A7947 /* MouseEventProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MouseEventProtocol.h; path = ZDSnip/Classes/MouseEventProtocol.h; sourceTree = "<group>"; };
+		97689BA2685073FC0DBA83A13FFB767D /* Pods-ZDSnip_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDSnip_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D84C280F1D8C558283A07F16B9AF694 /* Pods-ZDSnip_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZDSnip_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3DC10E79617ECEAEF895E4E22CF91D4 /* SnipManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SnipManager.h; path = ZDSnip/Classes/SnipManager.h; sourceTree = "<group>"; };
+		A3EA8C74FCB2A26F5E5817E5F5B3E855 /* ZDSnip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZDSnip-Info.plist"; sourceTree = "<group>"; };
+		AC75D351426AEF74418DE5F8CF5E5CFC /* SnipWindowController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SnipWindowController.h; path = ZDSnip/Classes/SnipWindowController.h; sourceTree = "<group>"; };
+		ADC772666AB145E7D3658EB5A8A1C93B /* Pods-ZDSnip_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDSnip_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B5E1E1EA7E2E946BDF08A79C7A5173B1 /* Pods-ZDSnip_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDSnip_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C05FEAA257B537A1BA202540F059D776 /* Pods_ZDSnip_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZDSnip_Tests.framework; path = "Pods-ZDSnip_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C2D97A379B501B9FB012E44919E27A18 /* SnipWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SnipWindow.h; path = ZDSnip/Classes/SnipWindow.h; sourceTree = "<group>"; };
+		CF804258B01B3327500739A853075238 /* Pods-ZDSnip_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDSnip_Tests-Info.plist"; sourceTree = "<group>"; };
+		CF8E63FD6B9BDC10F12572DB928FF377 /* ZDSnip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZDSnip.debug.xcconfig; sourceTree = "<group>"; };
+		D3617687620F0D5B77238CF453AA3B95 /* AutoHeightTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutoHeightTextView.h; path = ZDSnip/Classes/AutoHeightTextView.h; sourceTree = "<group>"; };
+		DE2E9C9A7A53328B91B36B73FFB7362C /* Pods-ZDSnip_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDSnip_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DF14B70365A73A09D4AF5012C8DD2D85 /* SnipUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SnipUtil.h; path = ZDSnip/Classes/SnipUtil.h; sourceTree = "<group>"; };
+		E2BF68BC2336C2D59140E9C9DFE66BB9 /* SimpleLabelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleLabelView.h; path = ZDSnip/Classes/SimpleLabelView.h; sourceTree = "<group>"; };
+		E87052E6471FB753D76A4CDDD4DCFCEF /* SnipView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SnipView.h; path = ZDSnip/Classes/SnipView.h; sourceTree = "<group>"; };
+		EA15FE6FA8F64890F535B32581BA705D /* Pods-ZDSnip_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDSnip_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F17C3CC609CA5BF7217DF9BAC0C4B22F /* DrawPathView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DrawPathView.m; path = ZDSnip/Classes/DrawPathView.m; sourceTree = "<group>"; };
+		FFC0D965FA2F6D03A682DF41577BEE58 /* ZDSnip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDSnip-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17FCD4B70DE808FBE90F13D5F37B9B40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C0071D4919B916687E43F4F02B8DD4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C855C7BDF144C3899A5B6B2DA419D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64702245EC07621B462010C52F7AE569 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C2BF30724B1A20715FB336312181726 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6AFE79D50814D5BD570D4FC2A06B240A /* LICENSE */,
+				732044C387D3E757AAF85BFFDE669495 /* README.md */,
+				8D6B5CD8A684273BBE0B19757E5B2E77 /* ZDSnip.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		672F8C5935AC153039FA0884F87A477C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C05FEAA257B537A1BA202540F059D776 /* Pods_ZDSnip_Tests.framework */,
+				7681EC525B6E22DCC2C90BBFE4EBB2BE /* ZDSnip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A30E64013356CC0F24D115AE4ED1B548 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBF3137353710D211C66899866A38736 /* ZDSnip */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A5701682523B0B04B97FF9E151AAFAD2 /* Pods-ZDSnip_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9D84C280F1D8C558283A07F16B9AF694 /* Pods-ZDSnip_Tests.modulemap */,
+				31FD5A003C116495F52E4A24797A70C4 /* Pods-ZDSnip_Tests-acknowledgements.markdown */,
+				B5E1E1EA7E2E946BDF08A79C7A5173B1 /* Pods-ZDSnip_Tests-acknowledgements.plist */,
+				97689BA2685073FC0DBA83A13FFB767D /* Pods-ZDSnip_Tests-dummy.m */,
+				3F8C44C7AAF99BCCC84F19A33369CDA5 /* Pods-ZDSnip_Tests-frameworks.sh */,
+				CF804258B01B3327500739A853075238 /* Pods-ZDSnip_Tests-Info.plist */,
+				ADC772666AB145E7D3658EB5A8A1C93B /* Pods-ZDSnip_Tests-umbrella.h */,
+				EA15FE6FA8F64890F535B32581BA705D /* Pods-ZDSnip_Tests.debug.xcconfig */,
+				DE2E9C9A7A53328B91B36B73FFB7362C /* Pods-ZDSnip_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZDSnip_Tests";
+			path = "Target Support Files/Pods-ZDSnip_Tests";
+			sourceTree = "<group>";
+		};
+		A5E8522BAD7410853DA228A32A291A0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02994C8A96A62892859C1AD1EE8E7D84 /* ZDSnip.modulemap */,
+				70987B3E5EEDA2959AA6C71114F9D2B7 /* ZDSnip-dummy.m */,
+				A3EA8C74FCB2A26F5E5817E5F5B3E855 /* ZDSnip-Info.plist */,
+				FFC0D965FA2F6D03A682DF41577BEE58 /* ZDSnip-prefix.pch */,
+				808DFB25F2CD5B4BC5CC6D3DAAC4CBBD /* ZDSnip-umbrella.h */,
+				CF8E63FD6B9BDC10F12572DB928FF377 /* ZDSnip.debug.xcconfig */,
+				24A5B453935BF8DA7776E15FC5242B80 /* ZDSnip.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZDSnip";
+			sourceTree = "<group>";
+		};
+		CBF3137353710D211C66899866A38736 /* ZDSnip */ = {
+			isa = PBXGroup;
+			children = (
+				D3617687620F0D5B77238CF453AA3B95 /* AutoHeightTextView.h */,
+				7A4658DE2063E22A515AC67D2DF3647E /* AutoHeightTextView.m */,
+				1359FE2F511205CA375CD7984F54B872 /* DrawPathInfo.h */,
+				5249E59D7F4E178CF7D9823181C06D76 /* DrawPathInfo.m */,
+				746F5AADA18078DFBB8AE7933F8C0B8D /* DrawPathView.h */,
+				F17C3CC609CA5BF7217DF9BAC0C4B22F /* DrawPathView.m */,
+				23C576AA7F9EBDA0075ADD0578BF0737 /* ImageButton.h */,
+				0988CD9A3458206CF9E7438C1A0D00B0 /* ImageButton.m */,
+				96ADF1F89B3CDE942735F9C2384A7947 /* MouseEventProtocol.h */,
+				4F2DED78A52473DC925139BE494F5D5B /* NSColor+Helper.h */,
+				30D3EC8C5FB2A4A8B85850DB42344260 /* NSColor+Helper.m */,
+				E2BF68BC2336C2D59140E9C9DFE66BB9 /* SimpleLabelView.h */,
+				41A3D9C65998565E35FCD869641C44E1 /* SimpleLabelView.m */,
+				A3DC10E79617ECEAEF895E4E22CF91D4 /* SnipManager.h */,
+				0E410B7165D5BD2B961C8C2E0C387AAC /* SnipManager.m */,
+				DF14B70365A73A09D4AF5012C8DD2D85 /* SnipUtil.h */,
+				207BC49B82B89DA552233684EF77D53A /* SnipUtil.m */,
+				E87052E6471FB753D76A4CDDD4DCFCEF /* SnipView.h */,
+				00BA05DD6C15A823A0D373F3C961BB63 /* SnipView.m */,
+				C2D97A379B501B9FB012E44919E27A18 /* SnipWindow.h */,
+				6504E88835529268726CDD63A195895B /* SnipWindow.m */,
+				AC75D351426AEF74418DE5F8CF5E5CFC /* SnipWindowController.h */,
+				41E02D799417460DCF35D8302495189B /* SnipWindowController.m */,
+				40E5FE1A3E2C7431D01448AAEB893808 /* SnipWindowController.xib */,
+				293B7C1B7DCD1AC26C7781982BF004B9 /* ToolContainer.h */,
+				7DBAED6D87671BAE24C28226708E5426 /* ToolContainer.m */,
+				5C2BF30724B1A20715FB336312181726 /* Pod */,
+				A5E8522BAD7410853DA228A32A291A0F /* Support Files */,
+			);
+			name = ZDSnip;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A30E64013356CC0F24D115AE4ED1B548 /* Development Pods */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				672F8C5935AC153039FA0884F87A477C /* Products */,
+				E21F955E56713778CD6CDAE71A191999 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E21F955E56713778CD6CDAE71A191999 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5701682523B0B04B97FF9E151AAFAD2 /* Pods-ZDSnip_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9925449AD19824A06995ED6CE6321378 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B70D75F04657E20526DFE313B6A1FD /* Pods-ZDSnip_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B597D880FC5E7B545FBC6C4262955C88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D645BA4EE63BEC99E807D73D0F143AED /* AutoHeightTextView.h in Headers */,
+				5B745B7E20DF4C93CA13FB769EC40261 /* DrawPathInfo.h in Headers */,
+				23ADEF001F9FF297C0DA3257183D0245 /* DrawPathView.h in Headers */,
+				C83623E918A2F462C94F7B348BA9BF07 /* ImageButton.h in Headers */,
+				E936C5ABE9C1325CB16610B5370D9180 /* MouseEventProtocol.h in Headers */,
+				B2C5F38C75924A18AC1475156B75C105 /* NSColor+Helper.h in Headers */,
+				1DEC88DE161A2AE761E667C6C460581A /* SimpleLabelView.h in Headers */,
+				CBA1B07DD66DD741AD666B2A242745BE /* SnipManager.h in Headers */,
+				2596D1108579881E9782326B87E773BA /* SnipUtil.h in Headers */,
+				9D2267A79D265FC5C4B8BEA179B5B618 /* SnipView.h in Headers */,
+				8EA07330294C46226A00F893D9AF784A /* SnipWindow.h in Headers */,
+				CE56EB016579A336FC478FC37B7DA3A2 /* SnipWindowController.h in Headers */,
+				771EB67555F86337A25ACE80AF1A535D /* ToolContainer.h in Headers */,
+				BDB12BB172BBB10D749C6E45D6E427E4 /* ZDSnip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26AF848651EF58BB0FDF1C56D5537CE7 /* Pods-ZDSnip_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD90A372F9E1DB0F0CAD753FE1B67C4E /* Build configuration list for PBXNativeTarget "Pods-ZDSnip_Tests" */;
+			buildPhases = (
+				9925449AD19824A06995ED6CE6321378 /* Headers */,
+				702559528A8B13911905EEB02F94607C /* Sources */,
+				17FCD4B70DE808FBE90F13D5F37B9B40 /* Frameworks */,
+				AFA2F0A62B9C2986375EC9B19A797C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C3F59DA12C366807BBB32CA842EDEF4 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZDSnip_Tests";
+			productName = "Pods-ZDSnip_Tests";
+			productReference = C05FEAA257B537A1BA202540F059D776 /* Pods_ZDSnip_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA3D16E679640933459B5AE04887828A /* ZDSnip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85125B32E90FD2D98942390C18A56658 /* Build configuration list for PBXNativeTarget "ZDSnip" */;
+			buildPhases = (
+				B597D880FC5E7B545FBC6C4262955C88 /* Headers */,
+				E3DFFCDD0199531F66B82F6BC680E3C8 /* Sources */,
+				94C855C7BDF144C3899A5B6B2DA419D3 /* Frameworks */,
+				3B3DA6589395D25A8035AE7256278FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDSnip;
+			productName = ZDSnip;
+			productReference = 7681EC525B6E22DCC2C90BBFE4EBB2BE /* ZDSnip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 672F8C5935AC153039FA0884F87A477C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26AF848651EF58BB0FDF1C56D5537CE7 /* Pods-ZDSnip_Tests */,
+				AA3D16E679640933459B5AE04887828A /* ZDSnip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B3DA6589395D25A8035AE7256278FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA2F0A62B9C2986375EC9B19A797C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		702559528A8B13911905EEB02F94607C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A2ADC0DC6ECECCD7BE4E3B11806ABC /* Pods-ZDSnip_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3DFFCDD0199531F66B82F6BC680E3C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3BA85356FEB2A17FBCCF08F4F1A741 /* AutoHeightTextView.m in Sources */,
+				A83F11E286C18078C138C841FD22A9D1 /* DrawPathInfo.m in Sources */,
+				29FAA4ABECBA0236DEF1A31F0F1F6148 /* DrawPathView.m in Sources */,
+				0F72FFF48990A0B9236FDECDCAF3DCFF /* ImageButton.m in Sources */,
+				9DC314356A50B125E734E270D5688498 /* NSColor+Helper.m in Sources */,
+				5D4563364934AF6F3E94E04722CA5445 /* SimpleLabelView.m in Sources */,
+				C28AF3572967EE020EA79B9793153F50 /* SnipManager.m in Sources */,
+				372F9D768481F4936A80E0E8A8954E4F /* SnipUtil.m in Sources */,
+				2E69F167BB740E591A1B1EF96F0F50AC /* SnipView.m in Sources */,
+				8DBB3A069138005DB7D62468F6940A7A /* SnipWindow.m in Sources */,
+				FE3385F10CA7A7CEFCD6625D4FB58B12 /* SnipWindowController.m in Sources */,
+				787ED33183C90509AA7ED8E497CDECA0 /* SnipWindowController.xib in Sources */,
+				7E0E15031EE794D5C56E6AA3F72A88B4 /* ToolContainer.m in Sources */,
+				7357093C7B700CC4ADC51E93EB4BD37E /* ZDSnip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C3F59DA12C366807BBB32CA842EDEF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZDSnip;
+			target = AA3D16E679640933459B5AE04887828A /* ZDSnip */;
+			targetProxy = 6DEB79291F7997E84D5E6637E800579C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5203489B338553AA750F6B74564C61C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A5B453935BF8DA7776E15FC5242B80 /* ZDSnip.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZDSnip/ZDSnip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZDSnip/ZDSnip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/ZDSnip/ZDSnip.modulemap";
+				PRODUCT_MODULE_NAME = ZDSnip;
+				PRODUCT_NAME = ZDSnip;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7599BD86FD28576C20F8B9B6B5ACBEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C0AB89DB0533D8E2B9201FA6579824B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D34ACD60D70DA6A7663CD28226DC1BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF8E63FD6B9BDC10F12572DB928FF377 /* ZDSnip.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZDSnip/ZDSnip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZDSnip/ZDSnip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/ZDSnip/ZDSnip.modulemap";
+				PRODUCT_MODULE_NAME = ZDSnip;
+				PRODUCT_NAME = ZDSnip;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4ED5195734B3415EF5078917D3166FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA15FE6FA8F64890F535B32581BA705D /* Pods-ZDSnip_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDSnip_Tests/Pods-ZDSnip_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDSnip_Tests/Pods-ZDSnip_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE8852EF9DF93033EE8E3FA5C3B8818D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE2E9C9A7A53328B91B36B73FFB7362C /* Pods-ZDSnip_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDSnip_Tests/Pods-ZDSnip_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDSnip_Tests/Pods-ZDSnip_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7599BD86FD28576C20F8B9B6B5ACBEC9 /* Debug */,
+				C0AB89DB0533D8E2B9201FA6579824B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85125B32E90FD2D98942390C18A56658 /* Build configuration list for PBXNativeTarget "ZDSnip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34ACD60D70DA6A7663CD28226DC1BE8 /* Debug */,
+				5203489B338553AA750F6B74564C61C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD90A372F9E1DB0F0CAD753FE1B67C4E /* Build configuration list for PBXNativeTarget "Pods-ZDSnip_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4ED5195734B3415EF5078917D3166FF /* Debug */,
+				EE8852EF9DF93033EE8E3FA5C3B8818D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
