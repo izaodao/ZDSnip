@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://gitlab.izaodao.com/lvhaoxuan/ZDSnip'
+  s.homepage         = 'https://github.com/izaodao/ZDSnip.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lvhaoxuan' => 'lvhaoxuan@izaodao.com' }
-  s.source           = { :git => 'https://gitlab.izaodao.com/lvhaoxuan/ZDSnip.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/izaodao/ZDSnip.git', :tag => s.version.to_s }
 
   s.platform = :osx
   s.osx.deployment_target = "10.12"
