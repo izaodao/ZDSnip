@@ -65,7 +65,7 @@ const int kKEY_ESC_CODE = 53;
     self.isWorking = YES;
     self.arrayRect = [NSMutableArray array];
     //CFArrayRef windowArray = CGWindowListCopyWindowInfo(kCGWindowListOptionOnScreenOnly, kCGNullWindowID);
-    NSArray *windows = (__bridge NSArray *) CGWindowListCopyWindowInfo(kCGWindowListOptionOnScreenOnly, kCGNullWindowID);
+    NSArray *windows = (__bridge_transfer NSArray *) CGWindowListCopyWindowInfo(kCGWindowListOptionOnScreenOnly, kCGNullWindowID);
     NSUInteger count = [windows count];
     for (NSUInteger i = 0; i < count; i++) {
         NSDictionary *windowDescriptionDictionary = windows[i];
@@ -76,7 +76,8 @@ const int kKEY_ESC_CODE = 53;
     }
     //CFRelease(windowArray);
 
-    for (NSScreen *screen in [NSScreen screens]) {
+    NSArray<NSScreen *> *screens = [NSScreen screens];
+    for (NSScreen *screen in screens) {
 //        SnipWindowController *snipController = [[SnipWindowController alloc] initWithWindowNibName:@"SnipWindowController"];
         SnipWindowController *snipController = [[SnipWindowController alloc] init];
         SnipWindow *snipWindow = [[SnipWindow alloc] initWithContentRect:[screen frame] styleMask:NSWindowStyleMaskNonactivatingPanel backing:NSBackingStoreBuffered defer:NO screen:screen];

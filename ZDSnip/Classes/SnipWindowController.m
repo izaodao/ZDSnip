@@ -59,7 +59,6 @@ const int kAdjustKnown = 8;
     NSRect mainFrame = [screen frame];
     self.originImage = [[NSImage alloc] initWithCGImage:imgRef size:mainFrame.size];
     self.darkImage = [[NSImage alloc] initWithCGImage:imgRef size:mainFrame.size];
-    CGImageRelease(imgRef);
 
     // 对darkImage做暗化处理
     [self.darkImage lockFocus];
@@ -76,7 +75,7 @@ const int kAdjustKnown = 8;
     //NSLog(@"screen:%@ mouse:%@",NSStringFromRect(screen.frame),NSStringFromPoint(mouseLocation));
     NSRect screenFrame = [screen frame];
     self.captureWindowRect = screenFrame;
-    double minArea = screenFrame.size.width * screenFrame.size.height;
+    CGFloat minArea = screenFrame.size.width * screenFrame.size.height;
     for (NSDictionary *dir in [SnipManager sharedInstance].arrayRect) {
         CGRect windowRect;
         CGRectMakeWithDictionaryRepresentation((__bridge CFDictionaryRef) dir[(id) kCGWindowBounds], &windowRect);
@@ -89,14 +88,10 @@ const int kAdjustKnown = 8;
             if (layer == 0) {
                 self.captureWindowRect = rect;
                 break;
-            }
-            else {
-                if (rect.size.width * rect.size.height < minArea) {
-                    self.captureWindowRect = rect;
-                    minArea = rect.size.width * rect.size.height;
-                    break;
-                }
-
+            } else if (rect.size.width * rect.size.height < minArea) {
+                minArea = rect.size.width * rect.size.height;
+                self.captureWindowRect = rect;
+                break;
             }
         }
 

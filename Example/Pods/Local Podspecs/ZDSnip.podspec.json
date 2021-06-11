@@ -1,9 +1,9 @@
 {
   "name": "ZDSnip",
-  "version": "0.1.0",
-  "summary": "截图工具",
+  "version": "0.1.1",
+  "summary": "截屏工具",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://gitlab.izaodao.com/lvhaoxuan/ZDSnip",
+  "homepage": "https://github.com/izaodao/ZDSnip.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "lvhaoxuan": "lvhaoxuan@izaodao.com"
   },
   "source": {
-    "git": "https://gitlab.izaodao.com/lvhaoxuan/ZDSnip.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/izaodao/ZDSnip.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "osx": "10.12"

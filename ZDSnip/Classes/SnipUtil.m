@@ -25,7 +25,7 @@
 //    NSLog(@"screenShot: %@", NSStringFromRect(rect));
     CGImageRef imgRef = CGWindowListCreateImageFromArray(rect, windowsRef, kCGWindowImageDefault);
     CFRelease(windowsRef);
-
+    CGImageRelease(imgRef);
     return imgRef;
 }
 
